@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px;
+    padding: 50px 20px 20px 20px;
+    background: #FA7070;
+    display: flex;
+    justify-content: center;
+    color: #FA7070;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#todo-title {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 10px 20px 10px;
+    background: #FBF2CF;
+    border-radius: 25px;
+}
+
+#todo-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 10px 10px 10px;
+}
+
+#todo-input {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px 10px 20px 10px;
+    height: 30px;
+    border-radius: 25px;
+    border: 1px solid #AAC4FF;
+    padding: 0 10px;
+}
+
+#todo-submit {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 10px 20px 10px;
+    padding: 7px;
+    background: #16213E;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#todo-submit:hover {
+    background: #0F3460;
+}
+
+#todo-output {
+    color: #0F3460;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+    background: #E7F6F2;
+    border-radius: 25px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+    border-bottom: 1px dashed #16213E;
+}
